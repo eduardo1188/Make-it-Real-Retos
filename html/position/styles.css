@@ -1,0 +1,16 @@
+.container {
+    width: 400px;
+    height: 1000px;
+    background-color: cadetblue;
+
+}
+.box {
+    width: 100px;
+    height: 100px;
+    background-color: burlywood;
+    /*position: absolute;*/
+    /*position: relative;*/
+    position: fixed;
+    /*bottom: 0;*/
+    top: 0px;
+}

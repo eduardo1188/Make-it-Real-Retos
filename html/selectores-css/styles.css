@@ -1,0 +1,28 @@
+.primer-contenedor {
+    color: white;
+    background-color: #1c2742;
+    text-align: center;
+    padding: 100px;
+}
+.segundo-contenedor {
+    text-align: center;
+}
+
+.tercer-contenedor {
+    color: white;
+    text-align: center;
+    background-color: #1c2742;
+    padding: 50px;
+    padding-bottom: 20px;
+}
+a:link {
+    color: red;
+  }
+  
+  a:visited {
+    color: green;
+  }
+  
+  a:hover {
+    color: blueviolet;
+  }

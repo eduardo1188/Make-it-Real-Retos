@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>Camisetas Pro</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form action="#" method="post">
+            <fieldset>
+                <div class="name">
+                <label for="name">Nombre</label>
+                <input type="text" id="Nombre" name="name">
+                </div>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="surname">Apellido</label>
+                <input type="text" id="Apellido" name="surname">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label for="email">Correo</label>
+                <input type="email" id="Correo" name="email" placeholder="username@domain.com">
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>Color</label>
+                <select name="Color">
+                    <option value="" disabled selected>Selecciona un Color</option>
+                    <option value="red">Rojo</option>
+                    <option value="blue">Azul</option>
+                    <option value="green">Verde</option>
+                </select>
+            </fieldset>
+            <br>
+            <fieldset>
+                <input type="radio" name="Talla" value="Talla S">
+                <label><span id="talla">Talla S</span></label>
+                <input type="radio" name="Talla" value="Talla M" checked>
+                <label>Talla M</label>
+                <input type="radio" name="Talla" value="Talla L">
+                <label>Talla L</label>
+            </fieldset>
+            <br>
+            <fieldset>
+                <label>Comentario</label>
+                <br>
+               <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea> 
+            </fieldset>
+            <br>
+            <fieldset>
+                <button type="submit"><span id="submit">Pedir</span></button>
+            </fieldset>
+        </form>
+    </body>
+</html>

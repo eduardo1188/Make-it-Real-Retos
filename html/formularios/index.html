@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>forms</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <form> 
+        <label for="name">Nombre</label>
+        <input type="Texto" id="nombre" name="name"/>
+        <label for="password">Contraseña</label>
+        <input type="password" id="password" name="password"/>
+        <label for="terms">Terminos y condiciones</label>
+        <input type="checkbox" id="terms" name="terms">
+        
+        <label for="radio-1">Radio 1</label>
+        <input type="radio" id="radio-1" name="radio-options">
+        <label for="radio-2">Radio 2</label>
+        <input type="radio" id="radio-2" name="radio-options" checked>
+        <label for="radio-3">Radio 3</label>
+        <input type="radio" id="radio-3" name="radio-options">
+
+        <select name="genero">
+            <option value="femenino">femenino</option>
+            <option value="masculino">masculino</option>
+        </select>
+        <textarea></textarea>
+        <label>Comentario</label>
+            <textarea name="comentario" rows="10" cols="20">
+            </textarea>
+          
+        <button type="submit">Enviar fomulario</button>
+        </form>
+        <img src="vaca.jpeg" alt="vaca">
+        <br>
+        <br>
+        <a href="www.facebook.com">Entra a facebook</a>
+
+        <fieldset> <!--selecciona un grupo-->
+            <label>
+              <input type="checkbox" name="seleccion" value="nuevos clientes"/>
+              Mostrar Nuevos Clientes
+            </label>
+            <label>
+              <input type="checkbox" name="seleccion" value="clientes antiguos" checked disabled />
+              Mostrar Clientes Antiguos
+            </label>
+            <label>
+              <input type="checkbox" name="seleccion" value="cliente perdidos"  checked/>
+              Mostrar Clientes Perdidos
+            </label>
+          </fieldset>
+          <fieldset>
+            <label for="password">Clave</label>
+            <input type="password" name="password" id="password"
+                value="Incorrecto" size="8" /> <!--texto y tamañop del texto que va dentro de la casilla-->
+          </fieldset>
+          <fieldset>
+            <label>
+              <input type="radio" name="tamaño" value="pequeño" required/>
+              Pequeño
+            </label>
+            <label>
+              <input type="radio" name="tamaño" value="mediano" checked />
+              Mediano
+            </label>
+            <label>
+              <input type="radio" name="tamaño" value="grande" />
+              Grande
+            </label>
+          </fieldset>
+          <label for="apellido">Apellido</label>
+          <input type="text" id="apellido" name="apellido"/>
+          <fieldset>
+            <label>
+              Email
+              <input type="email" name="email" placeholder="tucorreo@tuempresa" />
+            </label>
+          </fieldset>
+          <fieldset>
+            <input type="submit" value="Guardar" />
+          </fieldset>
+    </body>
+</html>
